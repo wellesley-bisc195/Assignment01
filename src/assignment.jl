@@ -1,8 +1,12 @@
 # # Instructions for Assignment 01
 #
-# ## Introdiction
+# ## Introduction
 #
-# Some description of the Assignment
+# In this assignment,
+# you will learn how to use github classroom
+# to download, complete, and test your assignments.
+# Make sure you have followed the instructions at <<URL>>
+# to set up your account and join the classroom.
 
 # ## Question 1
 #
