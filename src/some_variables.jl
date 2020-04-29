@@ -1,2 +1,2 @@
-n = "Kevin"
-a = 36
+n = "Kevin2"
+a = 26
