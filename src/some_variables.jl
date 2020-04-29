@@ -1,2 +1,2 @@
-my_name = "Kevin"
-my_age = 36
+n = "Kevin"
+a = 36

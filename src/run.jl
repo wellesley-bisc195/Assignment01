@@ -1,5 +1,9 @@
 include("some_functions.jl")
 include("some_variables.jl")
 
-say_name(my_name)
-say_age(my_age)
+function main()
+    say_name(n)
+    say_age(a)
+end
+
+main()
