@@ -37,11 +37,3 @@ end
     @test isdir("q3")
     rm("q3", force=true)
 end
-
-@testset "Question 4" begin
-    @test typeof(question4) <: AbstractString
-end
-
-@testset "Question 5" begin
-    @test typeof(question5) <: AbstractString
-end

@@ -42,15 +42,3 @@ question2 = ""
 # Enter the command between the quotes below.
 
 question3 = ""
-
-# ## Question 4
-#
-# Instructions
-
-question4 = ""
-
-# ## Question 5
-#
-# Instructions
-
-question5 = ""
