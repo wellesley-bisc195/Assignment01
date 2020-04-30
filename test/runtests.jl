@@ -20,10 +20,10 @@ end
     scmd = string.(split(question2))
     @test first(scmd) == "ls"
 
-    push!(scmd, "..")
+    push!(scmd, normpath(joinpath(@__DIR__, "..")))
     dircontents = split(read(Cmd(scmd), String), '\n')
     @test ".git" in dircontents
-    @test length(dircontents) > 12
+    @test length(dircontents) > 10
 end
 
 @testset "Question 3" begin
