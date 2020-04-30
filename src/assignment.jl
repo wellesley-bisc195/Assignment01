@@ -29,13 +29,17 @@ question1 = ""
 # What is the shell command to list the contents
 # of the working directory,
 # **including hidden files**?
-# enter the commands between the quotes below.
+# 
+# Enter the command between the quotes below.
 
 question2 = ""
 
 # ## Question 3
 #
-# Instructions
+# What is a shell command to create a new directory
+# called "q3" in your current working directory?
+#
+# Enter the command between the quotes below.
 
 question3 = ""
 
