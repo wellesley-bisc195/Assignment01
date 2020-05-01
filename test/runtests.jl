@@ -1,6 +1,8 @@
 using Assignment01
 using Test
 
+@testset "Assignment01" begin
+
 @testset "Question 1" begin
     @test typeof(question1) <: AbstractString
     @test isdefined(Assignment01, :my_name)
@@ -37,3 +39,5 @@ end
     @test isdir("q3")
     rm("q3", force=true)
 end
+
+end # testset Assignment01
