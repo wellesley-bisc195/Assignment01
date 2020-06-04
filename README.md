@@ -7,4 +7,4 @@
 This assignment is intended to help you get familiar with
 using github classroom to get and submit your assignments.
 
-Follow the [instructions here](https://wellesley-bisc195.github.io/BISC195.jl/stable/Lesson1/4_Assignment01/`)
+Follow the [instructions here](https://wellesley-bisc195.github.io/BISC195.jl/stable/Lesson1/4_Assignment01/)
