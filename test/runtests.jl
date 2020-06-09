@@ -34,7 +34,6 @@ end
     scmd = string.(split(question3))
     @test first(scmd) == "mkdir"
     @test length(scmd) == 2
-    @test scmd[2] == "q3"
     run(Cmd(scmd))
     @test isdir("q3")
     rm("q3", force=true)
