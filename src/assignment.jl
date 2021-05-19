@@ -29,7 +29,7 @@
 # is called "variable assignment,"
 # and we'll learn more about this in the next lesson.
 
-question1 = ""
+question1 = "yes"
 
 # ## Question 2
 #
@@ -39,7 +39,7 @@ question1 = ""
 # 
 # Enter the command between the quotes below.
 
-question2 = ""
+question2 = "ls -a"
 
 # ## Question 3
 #
@@ -48,4 +48,4 @@ question2 = ""
 #
 # Enter the command between the quotes below.
 
-question3 = ""
+question3 = "mkdir q3"
