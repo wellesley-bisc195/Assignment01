@@ -5,14 +5,14 @@
 # In this assignment,
 # you will learn how to use github classroom
 # to download, complete, and test your assignments.
-# Make sure you have followed the instructions at <<URL>>
+# Make sure you have followed [the instructions](https://wellesley-bisc195.github.io/Assignments/assignment01.html)
 # to set up your account and join the classroom.
 
 # To view additional instructions for this assignment, #jl
-# see https://wellesley-bisc195.github.io/BISC195.jl/stable/Assignments/assignment01.html #jl
+# see https://wellesley-bisc195.github.io/Assignments/assignment01.html #jl
 
 # To view a rendered version of this document, #jl
-# see https://wellesley-bisc195.github.io/BISC195.jl/stable/Assignments/assignment01_code.html #jl
+# see https://wellesley-bisc195.github.io/Assignments/assignment01_code.html #jl
 
 
 # ## Question 1
