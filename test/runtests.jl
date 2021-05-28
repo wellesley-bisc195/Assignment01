@@ -4,7 +4,7 @@ using Test
 @testset "Assignment01" begin
 
 @testset "Question 1" begin
-    @test typeof(question1) <: AbstractString
+    @test question1 isa AbstractString
     @test isdefined(Assignment01, :my_name)
     @test isdefined(Assignment01, :my_age)
     @test !occursin("kevin", lowercase(Assignment01.my_name))
@@ -17,7 +17,7 @@ using Test
 end
 
 @testset "Question 2" begin
-    @test typeof(question2) <: AbstractString
+    @test question2 isa AbstractString
 
     scmd = string.(split(question2))
     @test first(scmd) == "ls"
@@ -30,13 +30,24 @@ end
 
 @testset "Question 3" begin
     rm("q3", force=true)
-    @test typeof(question3) <: AbstractString
+    @test question3 isa AbstractString
     scmd = string.(split(question3))
     @test first(scmd) == "mkdir"
     @test length(scmd) == 2
     run(Cmd(scmd))
     @test isdir("q3")
     rm("q3", force=true)
+end
+
+@testset "Question 4" begin
+    @test question4 isa Real
+    @test question4 == 3
+end
+
+@testset "Question 5" begin
+    @test question4 isa Float64
+    @test 0 < question4 < 1
+    @test question4 ≈ 7//10
 end
 
 end # testset Assignment01
